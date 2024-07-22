@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu.Grafik.Grafik.Grafik8Activity">
+    <TableLayout
+        android:id="@+id/tl"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/kec1"
+                android:text="Kecamatan :  "/>
+            <TextView
+                android:id="@+id/kec2"
+                android:layout_width="80dp"
+                android:text=""/>
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:id="@+id/desa1"
+                android:text="Desa :  "/>
+            <TextView
+                android:id="@+id/desa2"
+                android:layout_width="80dp"
+                android:text=""/>
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:text="Tahun :  "/>
+            <Spinner
+                android:id="@+id/s_tahun"/>
+        </TableRow>
+    </TableLayout>
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart"
+        android:layout_below="@id/tl"
+        android:layout_toLeftOf="@id/tl2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TableLayout
+        android:id="@+id/tl2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="1. Usia 0-4"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="2. Usia 5-9"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="3. Usia 10-14"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="4. Usia 15-19"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="5. Usia 20-24"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="6. Usia 25-29"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="7. Usia 30-34"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="8. Usia 35-39"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="9. Usia 40-44"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="10. Usia 45-49"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="11. Usia 50-54"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="12. Usia 55-59"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="13. Usia 60-64"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="14. Usia 65-69"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="15. Usia 70-74"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="8dp"
+                android:text="16. Usia 75"/>
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/prev"
+        android:layout_alignParentBottom="true"
+        android:text="@string/prev"
+        android:textSize="10dp"
+        android:onClick="prev"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/next"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/next"
+        android:textSize="10dp"
+        android:onClick="next"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <include layout="@layout/content_lost_koneksi" />
+</RelativeLayout>

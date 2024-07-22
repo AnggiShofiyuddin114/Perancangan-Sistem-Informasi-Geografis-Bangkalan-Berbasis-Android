@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_data_wilayah"
+    android:background="#375498"
+    tools:context=".Menu.DataWilayah.MenuDataWilayahActivity">
+    <TextView
+        android:id="@+id/t_kec"
+        android:text="Kecamatan \t: "
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffff00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/j_kec"
+        android:layout_below="@id/t_kec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+    <include layout="@layout/content_lost_koneksi" />
+</RelativeLayout>

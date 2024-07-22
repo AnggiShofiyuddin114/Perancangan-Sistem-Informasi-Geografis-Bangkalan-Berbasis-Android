@@ -1,0 +1,1456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TableLayout
+                    android:padding="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/kec"
+                            android:text="Kecamatan"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="8dp" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/kec2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/ds"
+                            android:text="Desa"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="8dp" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/ds2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/luas_wilayah"
+                            android:text="Luas Wilayah"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="8dp" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/luas_wilayah2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/ket_tahun"
+                            android:text="Tahun"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="8dp" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/ket_tahun2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/penduduk_jumPenduduk"
+                            android:text="Jumlah Penduduk"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/penduduk_jumPenduduk2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/penduduk_jumKK"
+                            android:text="Jumlah KK"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/penduduk_jumKK2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/penduduk_jumKepadatanPenduduk"
+                            android:textSize="7dp"
+                            android:text="Kepadatan Penduduk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/penduduk_jumKepadatanPenduduk2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/penduduk_jumPerpindahanPenduduk"
+                            android:text="Perpindahan Penduduk"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/penduduk_jumPerpindahanPenduduk2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/penduduk_jumMeninggal"
+                            android:text="Jumlah Meninggal"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/penduduk_jumMeninggal2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/penduduk_jumWajibKtp"
+                            android:text="Wajib Ktp"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/penduduk_jumWajibKtp2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/penduduk_jumKelahiran"
+                            android:text="Jumlah Kelahiran"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/penduduk_jumKelahiran2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/agama_islam"
+                            android:text="Islam"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/agama_islam2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/agama_kristen"
+                            android:text="Kristen"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/agama_kristen2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/agama_katholik"
+                            android:text="Katholik"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/agama_katholik2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/agama_hindu"
+                            android:text="Hindu"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/agama_hindu2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/agama_budha"
+                            android:text="Budha"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/agama_budha2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/agama_konghucu"
+                            android:text="Konghucu"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/agama_konghucu2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/agama_kepercayaan"
+                            android:text="Kepercayaan"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/agama_kepercayaan2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_a"
+                            android:text="Goldar A"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_a2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_b"
+                            android:text="Goldar B"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_b2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_ab"
+                            android:text="Goldar AB"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_ab2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_o"
+                            android:text="Goldar O"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_o2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_a_p"
+                            android:text="Goldar A+"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_a_p2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_a_m"
+                            android:text="Goldar A-"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_a_m2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_b_p"
+                            android:text="Goldar B+"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_b_p2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_b_m"
+                            android:text="Goldar B-"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_b_m2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_ab_p"
+                            android:text="Goldar AB+"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_ab_p2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_ab_m"
+                            android:text="Goldar AB-"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_ab_m2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_o_p"
+                            android:text="Goldar O+"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_o_p2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_o_m"
+                            android:text="Goldar O-"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_o_m2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/goldar_tidak_diketahui"
+                            android:text="Tidak Diketahui"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/goldar_tidak_diketahui2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/jk_pria"
+                            android:text="Pria"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/jk_pria2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/jk_wanita"
+                            android:text="Wanita"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/jk_wanita2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/pekerjaan_belum_bekerja"
+                            android:text="Belum Bekerja"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/pekerjaan_belum_bekerja2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/pekerjaan_aparatur_pejabat_negara"
+                            android:text="Aparatur Pejabat Negara"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="8dp" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/pekerjaan_aparatur_pejabat_negara2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/pekerjaan_wiraswasta"
+                            android:text="Wiraswasta"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/pekerjaan_wiraswasta2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/pekerjaan_pertanian_dan_peternakan"
+                            android:text="Pertanian dan Peternakan"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="8dp" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/pekerjaan_pertanian_dan_peternakan2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/pekerjaan_nelayan"
+                            android:text="Nelayan"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/pekerjaan_nelayan2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/pekerjaan_agama_dan_kepercayaan"
+                            android:text="Agama dan Kepercayaan"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="8dp" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/pekerjaan_agama_dan_kepercayaan2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/pekerjaan_pelajar_dan_mahasiswa"
+                            android:text="Pelajar dan Mahasiswa"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="8dp" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/pekerjaan_pelajar_dan_mahasiswa2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:background="#ffffff"
+                    android:text=" "
+                    android:layout_height="match_parent"/>
+
+                <TableLayout
+                    android:padding="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/pekerjaan_tenaga_kesehatan"
+                            android:text="Tenaga Kesehatan"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/pekerjaan_tenaga_kesehatan2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/pekerjaan_pensiunan"
+                            android:text="Pensiunan"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/pekerjaan_pensiunan2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/pekerjaan_pekerjaan_lainnya"
+                            android:text="Pekerjaan Lainnya"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/pekerjaan_pekerjaan_lainnya2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_belum_sekolah"
+                            android:text="Belum Sekolah"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_belum_sekolah2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_belum_tamat_sd"
+                            android:text="Belum Tamat SD"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_belum_tamat_sd2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_tamat_sd"
+                            android:text="Tamat SD"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_tamat_sd2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_sltp"
+                            android:text="SLTP"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_sltp2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_slta"
+                            android:text="SLTA"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_slta2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_d1_dan_d2"
+                            android:text="D1 dan D2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_d1_dan_d22"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_d3"
+                            android:text="D3"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_d32"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_s1"
+                            android:text="S1"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_s12"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_s2"
+                            android:text="S2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_s22"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_s3"
+                            android:text="S3"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/riwayat_sekolah_s32"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/status_pernikahan_belum_kawin"
+                            android:text="Belum Kawin"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/status_pernikahan_belum_kawin2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/status_pernikahan_kawin"
+                            android:text="Kawin"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/status_pernikahan_kawin2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/status_pernikahan_cerai_mati"
+                            android:text="Cerai Mati"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/status_pernikahan_cerai_mati2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/status_pernikahan_cerai_hidup"
+                            android:text="Cerai Hidup"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/status_pernikahan_cerai_hidup2"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_0_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 0-4"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_0_42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_5_9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 5-9"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_5_92"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_10_14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 10-14"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_10_142"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_15-19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 15-19"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_15_192"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_20_24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 20-24"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_20_242"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_25_29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 25-29"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_25_292"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_30_34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 30-34"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_30_342"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_35_39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 35-39"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_35_392"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_40_44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 40-44"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_40_442"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_45_49"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 45-49"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_45_492"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_50_54"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 50-54"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_50_542"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_55_59"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 55-59"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textColor="#000000"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_55_592"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_60_64"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 60-64"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_60_642"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_65_69"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 65-69"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_65_692"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_70_74"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia 70-74"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_70_742"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_75"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usia >75"
+                            android:textSize="7dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="7dp" />
+                        <TextView
+                            android:id="@+id/usia_752"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_pendidikan_3_4"
+                            android:text="Usia Pendidikan 3-4"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/usia_pendidikan_3_42"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_pendidikan_5"
+                            android:text="Usia Pendidikan 5"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/usia_pendidikan_52"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_pendidikan_6_11"
+                            android:text="Usia Pendidikan 6-11"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/usia_pendidikan_6_112"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_pendidikan_12_14"
+                            android:text="Usia Pendidikan 12-14"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/usia_pendidikan_12_142"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_pendidikan_15_17"
+                            android:text="Usia Pendidikan 15-17"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/usia_pendidikan_15_172"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usia_pendidikan_18_22"
+                            android:text="Usia Pendidikan 18-22"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=" : "
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/usia_pendidikan_18_222"
+                            android:textSize="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</RelativeLayout>

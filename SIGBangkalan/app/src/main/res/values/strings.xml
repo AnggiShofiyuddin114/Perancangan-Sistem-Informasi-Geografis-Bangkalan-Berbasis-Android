@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SIG Bangkalan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Profile</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_home_admin">HomeAdminActivity</string>
+    <string name="title_activity_maps_kec_all">Map</string>
+    <string name="title_activity_maps_desa_kec">Map</string>
+
+    <string name="prev"><![CDATA[<]]></string>
+    <string name="next"><![CDATA[>]]></string>
+
+    <string name="nav_header_title">SIG Bangkalan</string>
+    <string name="nav_header_subtitle">anggishofiyuddin23@gmail.com</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#375498"
+    tools:context=".Menu.Grafik.GrafikKecamatan.GrafikBerdasarkanActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:popupTheme="@style/AppTheme.PopupOverlay"/>
+    <TextView
+        android:id="@+id/t_kec"
+        android:layout_below="@id/toolbar"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Kecamatan \t: "
+        android:textStyle="bold"
+        android:textColor="#ffff00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/t_desa"
+        android:layout_below="@id/t_kec"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Desa \t\t\t\t: "
+        android:textStyle="bold"
+        android:textColor="#ffff00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_below="@id/t_desa"
+        android:text="Grafik Berdasarkan \t: "
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffff00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/j_kec"
+        android:layout_below="@id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/content_lost_koneksi" />
+    </LinearLayout>
+</RelativeLayout>

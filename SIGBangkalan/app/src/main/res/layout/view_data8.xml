@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/page8"
+    android:layout_below="@id/AppBarLayout"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="Data Usia"
+        android:textColor="#FFFF00"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_0_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 0-4\t\t\t\t\t\t\t\t"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_0_42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_5_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 5-9"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_5_92"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_10_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 10-14"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_10_142"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_15-19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 15-19"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_15_192"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_20_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 20-24"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_20_242"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_25_29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 25-29"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_25_292"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_30_34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 30-34"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_30_342"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_35_39"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 35-39"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_35_392"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_40_44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 40-44"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_40_442"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_45_49"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 45-49"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_45_492"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_50_54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 50-54"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_50_542"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_55_59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 55-59"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_55_592"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_60_64"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 60-64"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_60_642"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_65_69"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 65-69"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_65_692"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/usia_70_74"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia 70-74"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_70_742"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+                <TableRow android:layout_marginBottom="45dp">
+                    <TextView
+                        android:id="@+id/usia_75"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usia >75"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/usia_752"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp" />
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

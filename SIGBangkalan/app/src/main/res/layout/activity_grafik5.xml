@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu.Grafik.Grafik.Grafik5Activity">
+    <TableLayout
+        android:id="@+id/tl"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/kec1"
+                android:text="Kecamatan :  "/>
+            <TextView
+                android:id="@+id/kec2"
+                android:layout_width="80dp"
+                android:text=""/>
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:id="@+id/desa1"
+                android:text="Desa :  "/>
+            <TextView
+                android:id="@+id/desa2"
+                android:layout_width="80dp"
+                android:text=""/>
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:text="Tahun :  "/>
+            <Spinner
+                android:id="@+id/s_tahun"/>
+        </TableRow>
+    </TableLayout>
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart"
+        android:layout_below="@id/tl"
+        android:layout_toLeftOf="@id/tl2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TableLayout
+        android:id="@+id/tl2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:textSize="10dp"
+                android:text="1. Belum Bekerja"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="10dp"
+                android:text="2. Aparatur Pejabat\n    Negara"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="10dp"
+                android:text="3. Wiraswasta"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="10dp"
+                android:text="4. Pertanian dan\n    Peternakan"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="10dp"
+                android:text="5. Nelayan"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="10dp"
+                android:text="6. Agama dan\n    Kepercayaan"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="10dp"
+                android:text="7. Pelajar dan\n    Mahasiswa"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="10dp"
+                android:text="8. Tenaga Kesehatan"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="10dp"
+                android:text="9. Pensiunan"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="10dp"
+                android:text="10. Pekerjaan Lainnya"/>
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/prev"
+        android:layout_alignParentBottom="true"
+        android:text="@string/prev"
+        android:textSize="10dp"
+        android:onClick="prev"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/next"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/next"
+        android:textSize="10dp"
+        android:onClick="next"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <include layout="@layout/content_lost_koneksi" />
+</RelativeLayout>
